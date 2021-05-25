@@ -1,0 +1,191 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 192rem; }
+
+body {
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.5;
+  color: #6e6f70; }
+
+.heading-primary {
+  color: #fff;
+  font-size: 4.4rem;
+  line-height: 1.25; }
+
+.heading-secondary {
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1.25; }
+  .heading-secondary__red {
+    color: #d30006; }
+
+.heading-tertiary {
+  font-size: 2.2rem;
+  line-height: 1.25;
+  color: #d30006; }
+  .heading-tertiary__bold-italic {
+    font-style: italic;
+    font-weight: bold;
+    color: #6e6f70; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 1.8rem; }
+
+.link {
+  text-decoration: none;
+  color: #6e6f70;
+  display: block;
+  overflow: auto; }
+  
+.mailaddress {
+  text-decoration: none;
+  color: #6e6f70;
+  overflow: auto; }
+
+.section-event {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 6rem 4rem 0 4rem; }
+  .section-event .sponsors {
+    width: 100%;
+    margin-bottom: 1rem; }
+    .section-event .sponsors-big img {
+      width: 40%;
+      margin-top: 2.6rem; }
+    .section-event .sponsors p {
+      font-size: 1.6rem; }
+    .section-event .sponsors img {
+      max-width: 100%;
+      height: auto; }
+  .section-event .images {
+    width: 100%;
+    margin: 0 auto; }
+    .section-event .images img {
+      max-width: 100%;
+      height: auto; }
+
+.section-full-width-images {
+  margin-top: 4rem;
+  width: 100%; }
+  .section-full-width-images img {
+    max-width: 100%;
+    height: auto; }
+
+.section-vita {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 4rem 4rem 0 4rem; }
+
+.section-imprint {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 6rem 4rem 0 4rem; }
+  .section-imprint .heading-tertiary {
+    margin-bottom: 4rem; }
+  .section-imprint h4 {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem; }
+  .section-imprint ul {
+    font-size: 1.6rem;
+    padding-left: 1.6rem;
+    margin-bottom: 1.2rem; }
+  .section-imprint a {
+    color: #6e6f70;
+    text-decoration: none; }
+
+.header {
+  height: 85vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  display: flex; }
+  .header__text-box {
+    width: 100%;
+    max-width: 68rem;
+    margin: 0 auto;
+    align-self: flex-end;
+    padding: 4rem;
+    position: relative; }
+    .header__text-box a {
+      text-decoration: none; }
+    .header__text-box .nav {
+      margin-top: 2rem; }
+      @media only screen and (min-width: 75em) {
+        .header__text-box .nav {
+          position: absolute;
+          left: 100%;
+          bottom: 4rem;
+          padding-top: 0; } }
+      .header__text-box .nav ul {
+        list-style: none;
+        display: flex; }
+        @media only screen and (min-width: 75em) {
+          .header__text-box .nav ul {
+            display: block; } }
+        .header__text-box .nav ul li:not(:first-of-type) {
+          padding-left: 8px; }
+        @media only screen and (min-width: 75em) {
+          .header__text-box .nav ul li:not(:first-of-type) {
+            padding-left: 0; } }
+        .header__text-box .nav ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.1rem; }
+
+.footer {
+  width: 100%;
+  margin-top: 8rem; }
+  .footer .inside {
+    position: relative; }
+  .footer img {
+    margin-top: 4rem;
+    max-width: 100%;
+    height: auto; }
+  .footer .top-link {
+    text-align: center; }
+    .footer .top-link a {
+      display: inline-block;
+      width: 24px;
+      height: 16px;
+      background: url("../img/top.png") no-repeat;
+      background-size: cover; }
+  .footer .contact {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%; }
+    @media only screen and (min-width: 56.25em) {
+      .footer .contact {
+        position: absolute;
+        top: 95%;
+        color: #fff;
+        padding: 0; } }
+    .footer .contact ul {
+      list-style-type: none; }
+      @media only screen and (min-width: 56.25em) {
+        .footer .contact ul {
+          display: flex;
+          max-width: 68rem;
+          margin: 0 auto; } }
+      .footer .contact ul li {
+        line-height: 1.5; }
+        @media only screen and (min-width: 56.25em) {
+          .footer .contact ul li {
+            padding: 0 8px;
+            line-height: 1.2rem; }
+            .footer .contact ul li:not(:last-of-type) {
+              border-right: 1px solid #fff; } }
