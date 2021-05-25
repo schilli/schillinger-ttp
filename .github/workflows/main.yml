@@ -24,6 +24,12 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         dry-run: ${{ secrets.dry_run }}
+        log-level: standard
+        port: 21
+        local-dir: ./
+        server-dir: public_html/
+        protocol: ftps
+        security: strict
         exclude: .git*
           - **.git*
           - .git*/**
