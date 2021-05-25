@@ -27,7 +27,7 @@ jobs:
         log-level: standard
         port: 21
         local-dir: ./
-        server-dir: public_html/
+        server-dir: ./
         protocol: ftps
         security: strict
         exclude: .git*
