@@ -36,4 +36,4 @@ jobs:
           -  **/.git*/**
           - archiv/**
           - archiv
-          - Readme*
+          - README.md
