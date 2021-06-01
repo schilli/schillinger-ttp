@@ -43,6 +43,18 @@ body {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
     margin-bottom: 1.8rem; }
+  	 
+.paragraph__italic {
+	font-size: 1.6rem;
+   font-style: italic; }
+   .paragraph__italic:not(:last-child) {
+    margin-bottom: 1.8rem; }
+  	 
+.paragraph__strong {
+  font-size: 1.6rem;
+  font-weight: bold; }
+  .paragraph__strong:not(:last-child) {
+    margin-bottom: 1.0rem; }
 
 .link {
   text-decoration: none;
@@ -189,3 +201,28 @@ body {
             line-height: 1.2rem; }
             .footer .contact ul li:not(:last-of-type) {
               border-right: 1px solid #fff; } }
+
+.logo-row {
+  display: flex;
+}
+
+.logo-column-2 {
+  flex: 50;
+  padding: 5px;
+}
+           
+ /* Three image containers (use 25% for four, and 50% for two, etc) 
+.logo-column-2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+*/
+
+/* Clear floats after image containers 
+.logo-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
